@@ -2,7 +2,8 @@
 
 ### 주요 AWS 최신 뉴스
 - AWS 보안 공지 – Apache Log4j2 이슈(CVE-2021-44228) (2021-12-10)
-  - Log4j는 Java 기반의 오픈소스 로그 유틸리티로 이번 취약점은 원격 코드를 실행하여 원격 조정할 수 있다는 점
+  - Log4j는 Java 기반의 오픈소스 로그 유틸리티로 프로그램 작성 및 실행 중 로그를 남기기 위해 사용됩니다.
+  - 이번 취약점은 JNDI(Java naming and Directory Interface) 인젝션 취약점으로 이를 악용하여 원격 코드 실행(RCE, Remote Code Execution)도 가능하며, CVSS 스코어 10점 만점 중 10점으로 가장 높은 위험도를 가진 취약점입니다.
 
 - Amazon Lex, AWS CloudFormation 지원 시작 (2021-12-11)
   - Amazon Lex는 대화형 인터페이스를 애플리케이션에 구축하기 위한 자연어 처리(NLU)를 사용하는 AI 서비스입니다.
